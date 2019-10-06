@@ -1,0 +1,27 @@
+valgrind output after
+
+rajshinde@rajshinde-Inspiron-3543:~/Week6/Week_6-Valgrind/build$ valgrind --leak-check=full ./app/shell-app
+==1457== Memcheck, a memory error detector
+==1457== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==1457== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==1457== Command: ./app/shell-app
+==1457== 
+Averaged sensor reading: 10
+DONE
+==1457== 
+==1457== HEAP SUMMARY:
+==1457==     in use at exit: 72,704 bytes in 1 blocks
+==1457==   total heap usage: 4 allocs, 3 frees, 73,788 bytes allocated
+==1457== 
+==1457== LEAK SUMMARY:
+==1457==    definitely lost: 0 bytes in 0 blocks
+==1457==    indirectly lost: 0 bytes in 0 blocks
+==1457==      possibly lost: 0 bytes in 0 blocks
+==1457==    still reachable: 72,704 bytes in 1 blocks
+==1457==         suppressed: 0 bytes in 0 blocks
+==1457== Reachable blocks (those to which a pointer was found) are not shown.
+==1457== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==1457== 
+==1457== For counts of detected and suppressed errors, rerun with: -v
+==1457== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+rajshinde@rajshinde-Inspiron-3543:~/Week6/Week_6-Valgrind/build$
