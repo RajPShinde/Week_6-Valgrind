@@ -1,0 +1,9 @@
+cpplint output
+
+rajshinde@rajshinde-Inspiron-3543:~/Week6/Week_6-Valgrind$ cpplint $( find . -name \*.hpp -or -name \*.cpp | grep -vE -e "^./build/" -e "^./vendor/" -e "^./docs/" -e "^./results" )
+Done processing ./test/test.cpp
+Done processing ./test/main.cpp
+Done processing ./app/AnalogSensor.cpp
+Done processing ./app/main.cpp
+Done processing ./include/AnalogSensor.hpp
+

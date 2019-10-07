@@ -7,6 +7,11 @@
 
 Exploring the valgrind tool to improve code quality during development and testing.
 
+##Description
+
+Used valgrind to search the bugs, and then fixed the bugs.Used the KCachegrind tool.
+Added doxygen comments and checked for cpplint and cppcheck errors.
+
 ## Standard install via command-line
 ```
 git clone --recursive https://github.com/dpiet/cpp-boilerplate

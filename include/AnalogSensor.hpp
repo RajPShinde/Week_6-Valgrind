@@ -1,13 +1,27 @@
+/** 
+ *  @file  AnalogSensor.hpp
+ *  @author  Raj Shinde
+ *  @copyright  Raj Shinde
+ *  @copyright  2019
+ *  @version  1.0
+ *  @brief  Exploring the valgrind tool to 
+ *  improve code quality during 
+ *  development and testing.
+ */
+
 #pragma once
 
 #include <iostream>
 
-class AnalogSensor
-{
-public:
-    AnalogSensor(unsigned int samples);
+/**
+ *  @brief  Class containing methods related 
+ *  to sensor
+ */
+class AnalogSensor {
+ public:
+    explicit AnalogSensor(unsigned int samples);
     ~AnalogSensor();
     int Read();
-private:
+ private:
     unsigned int mSamples;
 };
