@@ -1,4 +1,4 @@
-# C++ Boilerplate
+# Week_6-Valgrind
 [![Build Status](https://travis-ci.org/RajPShinde/Week_6-Valgrind.svg?branch=master)](https://travis-ci.org/RajPShinde/Week_6-Valgrind)
 [![Coverage Status](https://coveralls.io/repos/github/RajPShinde/Week_6-Valgrind/badge.svg?branch=master)](https://coveralls.io/github/RajPShinde/Week_6-Valgrind?branch=master)
 ---
